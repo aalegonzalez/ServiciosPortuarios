@@ -4,7 +4,7 @@ from django.db import models
 class Auditorias(models.Model):
     
     nombre = models.CharField(max_length=100)
-    fecha_de_entrega = models.DateField()
+    fecha = models.DateField()
     entregado = models.BooleanField()
 
 class Curso(models.Model):
